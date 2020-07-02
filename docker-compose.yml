@@ -54,7 +54,7 @@ services:
     volumes:
       - certbot-etc:/etc/letsencrypt
       - wordpress:/var/www/html
-    command: certonly --webroot --webroot-path=/var/www/html --email joseph.chinna533@gmail.com --agree-tos --no-eff-email --staging -d rjclabs.epizy.com -d www.rjclabs.epizy.com
+    command: certonly --webroot --webroot-path=/var/www/html --email xxx@example.com --agree-tos --no-eff-email --staging -d example.com -d www.example.com
 
 volumes:
   certbot-etc:
